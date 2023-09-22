@@ -11,3 +11,9 @@
     `id ^ id = 0` then we have a double buzz the game ends
 - so we hack up multiple clients hope they have the same condition twice and let them fire their messages away at the server
 - this should be a game we can check performance with that
+
+## Also a good idea is a chat room
+
+- server has to broadcast all messages on submit to an input the client sends a message
+- the dom is updated constantly if there is a server event (*this is something I would have to think about*)
+- if you join u get a color and a hello message is displayed
